@@ -1,0 +1,75 @@
+#cssmenu {
+  background: #2687E9;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+#cssmenu ul {
+  list-style: none;
+  margin: -8px 150px;
+  padding: 0px;
+  line-height: 1;
+  display: block;
+  zoom: 1;
+}
+
+	
+	
+}
+#cssmenu ul li.teste{
+  display: inline-block;
+  padding: 0px;
+  margin: 0px;
+}
+#cssmenu.align-right ul li.teste{
+  float: right;
+}
+#cssmenu.align-center ul {
+  text-align: center;
+}
+#cssmenu ul li.teste a {
+  color: #000000;
+  text-decoration: none;
+  display: block;
+  padding: 12px 25px;
+  font-family: 'Copperplate Gothic Light';
+  font-weight: 500;
+  font-size: 14px;
+  position: relative;  
+  top: -25px; 
+}
+#cssmenu ul li.teste a:hover {
+  position: relative;
+  top: -18px; 
+}
+#cssmenu li.logo {
+  position: relative;
+  top: 20px;
+  margin: 0px -70px;
+}
+
+#cssmenu ul li.teste a:hover:before {
+  width: 100%;
+  top: -12px;
+}
+#cssmenu ul li.teste a:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -4px;
+  left: 0px;
+  bottom: 0px;
+  height: 3px;
+  width: 0;
+  background: #ffffff;
+}
+#cssmenu ul li a.active {
+  width: 50%;
+  top: -18px;
+}
+#cssmenu ul li a.active:before{
+  width: 100%;
+  top: -12px;
+}
